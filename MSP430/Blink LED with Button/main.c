@@ -18,7 +18,7 @@ void main(void) {
 
 	_BIS_SR(GIE); // Enable global interrupts
 
-	P1IE |= 0x08; // enable port1 pin5 interrupts
+	P1IE |= 0x08; // enable port1 pin3 interrupts
 
 	P1IES |= 0x08; // Throw flag on high-to-low transition
 
